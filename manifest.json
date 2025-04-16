@@ -4,7 +4,9 @@
 	"version": "1.2",
 	"description": "Redirects Twitter/X to Nitter for a private, ad-free experience.",
 	"permissions": [
-		"webNavigation"
+		"webNavigation",
+		"*://twitter.com/*",
+		"*://x.com/*"
 	],
 	"background": {
 		"scripts": ["background.js"],
