@@ -8,7 +8,7 @@ async function setDefaultInstance() {
     const sync = await browser.storage.sync.get("instance");
     let instance = sync.instance;
     if (instance == undefined || instance == "") {
-        await browser.storage.sync.set({ instance: "nitter.net" });
+        await browser.storage.sync.set({ instance: "nitter.click" });
     }
 }
 
